@@ -1,0 +1,39 @@
+{
+    "data":[
+        {
+            "question":"what is the capital of Croatia ?",
+            "choice": ["Splite" , "Osijek" , "Zagreb" , "rejeka"],
+            "answer": "zagreb"
+        },
+        {
+            "question":"what is the capital of France ?",
+            "choice": ["Splite" , "Osijek" , "Zagreb" , "rejeka"],
+            "answer": "Zagreb"
+        },
+        {
+            "question":"what is the capital of Croatia ?",
+            "choice": ["Splite" , "Osijek" , "Zagreb" , "rejeka"],
+            "answer": "zagreb"
+        },
+        {
+            "question":"what is the capital of Croatia ?",
+            "choice": ["Splite" , "Osijek" , "Zagreb" , "rejeka"],
+            "answer": "zagreb"
+        },
+        {
+            "question":"what is the capital of Croatia ?",
+            "choice": ["Splite" , "Osijek" , "Zagreb" , "rejeka"],
+            "answer": "zagreb"
+        },
+        {
+            "question":"what is the capital of Croatia ?",
+            "choice": ["Splite" , "Osijek" , "Zagreb" , "rejeka"],
+            "answer": "zagreb"
+        },
+        {
+            "question":"what is the capital of Croatia ?",
+            "choice": ["Splite" , "Osijek" , "Zagreb" , "rejeka"],
+            "answer": "zagreb"
+        }
+    ]
+}
