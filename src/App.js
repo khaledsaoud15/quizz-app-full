@@ -96,6 +96,7 @@ const App = () => {
           onReset={resetClickHandler}
           onAnswersCheck={() => setShowModal(true)}
           time={time}
+          username={username}
         />
       )}
 
