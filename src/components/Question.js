@@ -49,16 +49,21 @@ const Question = ({
         <div className="content" ref={radioWrapper}>
           <h2 className="mb-5">{data.question}</h2>
           <div className="control">
+            {data.images.map((i) => (
+              <img src={i} alt="" />
+            ))}
             {data.choices.map((choice, i) => (
-              <label className="radio has-background-light" key={i}>
-                <input
-                  type="radio"
-                  name="answer"
-                  value={choice}
-                  onChange={changeHandler}
-                />
-                {choice}
-              </label>
+              <>
+                <label className="radio has-background-light" key={i}>
+                  <input
+                    type="radio"
+                    name="answer"
+                    value={choice}
+                    onChange={changeHandler}
+                  />
+                  {choice}
+                </label>
+              </>
             ))}
           </div>
           {error && <div className="has-text-danger">{error}</div>}
